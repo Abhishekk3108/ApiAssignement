@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="868d2dca-710d-40d6-b23f-a47b58974cbe" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BasicRestassured$PostApiCall_ValidateLogin.ic" NAME="PostApiCall.ValidateLogin Coverage Results" MODIFIED="1583500210684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BasicRestassured" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BasicRestassured" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BasicRestassured" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BasicRestassured" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BasicRestassured" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="e#389#390#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/getEmployeesApiModel/GetEmployeesDataRoot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/getEmployeesApiModel/GetEmployeeData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SampleGetRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getUSer</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/DataClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UserData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PostApiCall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/UserSignUpModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/UserSignUpResponse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GetUserResponseBody.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PostApiCall.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/model/LoginApiRequestBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GetUserResponseBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GetEmployeeRequestModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Properties/ReqResApiUrl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SignUpApi.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GetUserApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GetEmployeeModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GetEmployeesData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GetEmployeesApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CommonUtills.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EmployeesApiTests/GetEmployeesTestApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/UserSignUpService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/EmployeeDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/GetEmployeeDataService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EmployeesApiTests/GetEmployeesApiTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiDataSet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/CreateEmployeeData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/EmployeesData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/CreateEmployeeRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/CreateEmoloyeeDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/EmoloyeeData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/PostEmployeeData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/CreateEmployeeDataRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/EmployeeData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/getEmployeesApiModel/EmployeeDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/CreateEmployeeDataRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commonMethods/Utills.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Utills.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Qa.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeModel/UpdateEmployeeData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeModel/UpdateEmployeeDataRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeModel/EmployeeData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SampleGetRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBody.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="794" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="getEmployeesApiModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="postEmployeesApiModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeesApiTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="Project" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591169976380" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.DummyRestEmployeesApiTest.validateUpdateEmployeeApi">
+    <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DummyRestEmployeesApiTest.validatePostEmployeeApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicRestassured.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EmployeesApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EmployeesApiTests" />
+      <option name="MAIN_CLASS_NAME" value="EmployeesApiTests.DummyRestEmployeesApiTest" />
+      <option name="METHOD_NAME" value="validatePostEmployeeApi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DummyRestEmployeesApiTest.validateUpdateEmployeeApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicRestassured.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EmployeesApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EmployeesApiTests" />
+      <option name="MAIN_CLASS_NAME" value="EmployeesApiTests.DummyRestEmployeesApiTest" />
+      <option name="METHOD_NAME" value="validateUpdateEmployeeApi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleGetRequest.charCount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicRestassured.main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SampleGetRequest" />
+      <option name="METHOD_NAME" value="charCount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleGetRequest.countChar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicRestassured.main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SampleGetRequest" />
+      <option name="METHOD_NAME" value="countChar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleGetRequest.reverseArrayString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicRestassured.main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SampleGetRequest" />
+      <option name="METHOD_NAME" value="reverseArrayString" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.DummyRestEmployeesApiTest.validateUpdateEmployeeApi" />
+        <item itemvalue="TestNG.SampleGetRequest.countChar" />
+        <item itemvalue="TestNG.SampleGetRequest.charCount" />
+        <item itemvalue="TestNG.SampleGetRequest.reverseArrayString" />
+        <item itemvalue="TestNG.DummyRestEmployeesApiTest.validatePostEmployeeApi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="868d2dca-710d-40d6-b23f-a47b58974cbe" name="Default Changelist" comment="" />
+      <created>1583318947223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583318947223</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 12h 37m 51s.xml">
+      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 12h 39m 48s.xml">
+      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 12h 40m 31s.xml">
+      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 12h 42m 32s.xml">
+      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 12h 42m 58s.xml">
+      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 12h 43m 19s.xml">
+      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 13h 08m 47s.xml">
+      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 14h 27m 50s.xml">
+      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validateUpdateEmployeeApi - 2020.05.13 at 18h 22m 23s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validateUpdateEmployeeApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validateUpdateEmployeeApi - 2020.05.13 at 18h 24m 43s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validateUpdateEmployeeApi" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="794" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.2353362" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5009862" side_tool="true" weight="0.21530758" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2776204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3385269" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4807229" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.40851063" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.22103004" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5009862" side_tool="true" weight="0.21530758" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2776204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4807229" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.40851063" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SampleGetRequest.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="jsonResponse.get(0)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>jsonResponse.get(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/config/ObjectMapperConfig.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/Reporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+          <folding>
+            <element signature="e#3658#3659#0" expanded="true" />
+            <element signature="e#3698#3699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ObjectToMapExample.java" />
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetUserApi.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Data.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataClass.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Properties.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ResponseBodyData.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ResponseBodyExtractionOptions.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ResponseBody.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/Response.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GetUserResponseBody.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/UserSignUpResponse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/UserSignUpModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/UserData.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/LoginApiRequestBody.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/PostApiCall.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SignUpApi.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.2/23b321b525e54fefd5a5e47371077a981833fb37/ideaIC-2018.3.2/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ResponseOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ValidatableResponseOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="343" column="6" selection-start-line="343" selection-start-column="6" selection-end-line="343" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Qa.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeDataRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeDataRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/specification/RequestSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="1857" column="25" selection-start-line="1857" selection-start-column="25" selection-end-line="1857" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/RestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="709" column="39" selection-start-line="709" selection-start-column="39" selection-end-line="709" selection-end-column="39" />
+          <folding>
+            <element signature="e#28139#28140#0" expanded="true" />
+            <element signature="e#28213#28214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/getEmployeesApiModel/GetEmployeesDataRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/getEmployeesApiModel/GetEmployeeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SampleGetRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|BasicRestassured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: commons-codec:commons-codec:1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
