@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="868d2dca-710d-40d6-b23f-a47b58974cbe" name="Default Changelist" comment="" />
+    <list default="true" id="868d2dca-710d-40d6-b23f-a47b58974cbe" name="Default Changelist" comment="AddedLombokDependency">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/Properties/DummyRestApiUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/Properties/DummyRestApiUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/Properties/PropertiesReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/Properties/PropertiesReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/SampleGetRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/SampleGetRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/Service/EmployeeApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/Service/EmployeeApiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/client/EmployeeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/client/EmployeeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/model/getEmployeesApiModel/EmployeeDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/model/getEmployeesApiModel/EmployeesData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/model/postEmployeesApiModel/EmployeeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/model/postEmployeesApiModel/EmployeeDataBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/model/postEmployeesApiModel/EmployeeDataRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Properties/DummyRestApiUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Properties/DummyRestApiUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Properties/PropertiesReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Properties/PropertiesReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SampleGetRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/SampleGetRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Service/EmployeeApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Service/EmployeeApiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/client/EmployeeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/client/EmployeeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/getEmployeesApiModel/EmployeeDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/getEmployeesApiModel/EmployeesData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/postEmployeesApiModel/EmployeeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/postEmployeesApiModel/EmployeeDataBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/postEmployeesApiModel/EmployeeDataRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/EmployeesApiTests/DummyRestEmployeesApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test-instrumented/EmployeesApiTests/DummyRestEmployeesApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/EmployeesApiTests/DummyRestEmployeesApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/EmployeesApiTests/DummyRestEmployeesApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/BasicRestassured-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/BasicRestassured-1.0-SNAPSHOT.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/BasicRestassured/lib/BasicRestassured-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/BasicRestassured/lib/BasicRestassured-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/BasicRestassured/lib/BasicRestassured-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/BasicRestassured/lib/BasicRestassured-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/BasicRestassured-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/BasicRestassured-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/Gradle suite/Gradle test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/Gradle suite/Gradle test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/Gradle suite/Gradle test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/Gradle suite/Gradle test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/EmployeesApiTests.DummyRestEmployeesApiTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/EmployeesApiTests.DummyRestEmployeesApiTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/junitreports/TEST-EmployeesApiTests.DummyRestEmployeesApiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/junitreports/TEST-EmployeesApiTests.DummyRestEmployeesApiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Gradle suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/old/Gradle suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Gradle suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/old/Gradle suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Gradle suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/old/Gradle suite/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/EmployeesApiTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/EmployeesApiTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-EmployeesApiTests.DummyRestEmployeesApiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-EmployeesApiTests.DummyRestEmployeesApiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Properties/PropertiesReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Properties/PropertiesReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Service/EmployeeApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Service/EmployeeApiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/client/EmployeeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/client/EmployeeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/model/postEmployeesApiModel/EmployeeDataReqBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/model/postEmployeesApiModel/PostEmployeeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/model/postEmployeesApiModel/PostEmployeeData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/EmployeesApiTests/DummyRestEmployeesApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/EmployeesApiTests/DummyRestEmployeesApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeDataRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeDataRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeDataRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeDataRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -66,32 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBody.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="e#389#390#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="287">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -99,20 +146,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+            <state relative-caret-position="65">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/getEmployeesApiModel/GetEmployeesDataRoot.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeDataRoot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReq.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,53 +212,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-341">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/getEmployeesApiModel/GetEmployeeData.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeDataRoot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SampleGetRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -186,17 +241,12 @@
       <find>getUSer</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/DataClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UserData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PostApiCall.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/UserSignUpModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/UserSignUpResponse.java" />
-        <option value="$PROJECT_DIR$/src/test/java/GetUserResponseBody.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PostApiCall.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/model/LoginApiRequestBody.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/GetUserResponseBody.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/GetEmployeeRequestModel.java" />
@@ -233,21 +283,30 @@
         <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeModel/UpdateEmployeeData.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeModel/UpdateEmployeeDataRoot.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeModel/EmployeeData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java" />
         <option value="$PROJECT_DIR$/src/main/java/SampleGetRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBody.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeDataRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeDataRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBuilder.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="794" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -308,6 +367,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="updateEmployeeApiModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicRestassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicRestassured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,18 +417,19 @@
   <component name="PropertiesComponent">
     <property name="android.project.structure.last.selected" value="Project" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591169976380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591864956919" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -378,7 +446,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DummyRestEmployeesApiTest.validateUpdateEmployeeApi">
+  <component name="RunManager" selected="TestNG.DummyRestEmployeesApiTest.validatePostEmployeeApi">
+    <configuration name="BasicRestassured [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BasicRestassured [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -434,18 +540,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleGetRequest.charCount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BasicRestassured.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleGetRequest" />
-      <option name="METHOD_NAME" value="charCount" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SampleGetRequest.countChar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicRestassured.main" />
       <option name="PACKAGE_NAME" value="" />
@@ -458,25 +552,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleGetRequest.reverseArrayString" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BasicRestassured.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleGetRequest" />
-      <option name="METHOD_NAME" value="reverseArrayString" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DummyRestEmployeesApiTest.validatePostEmployeeApi" />
+        <item itemvalue="Gradle.BasicRestassured [build]" />
+        <item itemvalue="Gradle.BasicRestassured [clean]" />
         <item itemvalue="TestNG.DummyRestEmployeesApiTest.validateUpdateEmployeeApi" />
         <item itemvalue="TestNG.SampleGetRequest.countChar" />
-        <item itemvalue="TestNG.SampleGetRequest.charCount" />
-        <item itemvalue="TestNG.SampleGetRequest.reverseArrayString" />
-        <item itemvalue="TestNG.DummyRestEmployeesApiTest.validatePostEmployeeApi" />
       </list>
     </recent_temporary>
   </component>
@@ -494,12 +576,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 12h 37m 51s.xml">
-      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 12h 39m 48s.xml">
-      <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SampleGetRequest_countChar - 2020.05.11 at 12h 40m 31s.xml">
       <configuration name="SampleGetRequest.countChar" configurationId="TestNG" />
     </history-entry>
@@ -524,6 +600,12 @@
     <history-entry file="DummyRestEmployeesApiTest_validateUpdateEmployeeApi - 2020.05.13 at 18h 24m 43s.xml">
       <configuration name="DummyRestEmployeesApiTest.validateUpdateEmployeeApi" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validatePostEmployeeApi - 2020.06.09 at 18h 02m 29s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validatePostEmployeeApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validatePostEmployeeApi - 2020.06.09 at 18h 18m 36s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validatePostEmployeeApi" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,9 +617,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="794" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="798" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.2353362" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.2453505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,16 +628,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.5009862" side_tool="true" weight="0.21530758" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2776204" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3385269" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27635327" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33760685" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4807229" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.47875354" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32863188" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.40851063" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.4074074" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -568,7 +650,7 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.22103004" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.24177396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -577,16 +659,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.5009862" side_tool="true" weight="0.21530758" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2776204" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27635327" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3385269" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4807229" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.48005697" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32863188" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.40851063" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.4074074" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -598,6 +680,10 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AddedLombokDependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="AddedLombokDependency" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -616,7 +702,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
-          <line>17</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
@@ -628,39 +714,63 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
-          <line>16</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
-          <line>65</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java</url>
-          <line>34</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
-          <line>61</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
-          <line>55</line>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
-          <line>57</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -716,34 +826,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/model/LoginApiRequestBody.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/PostApiCall.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SignUpApi.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.2/23b321b525e54fefd5a5e47371077a981833fb37/ideaIC-2018.3.2/lib/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ResponseOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ValidatableResponseOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="343" column="6" selection-start-line="343" selection-start-column="6" selection-end-line="343" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.2/23b321b525e54fefd5a5e47371077a981833fb37/ideaIC-2018.3.2/lib/junit-4.12.jar!/org/junit/Assert.class" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ResponseOptions.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ValidatableResponseOptions.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Qa.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -751,83 +836,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeDataRoot.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/specification/RequestSpecification.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/RestAssured.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/getEmployeesApiModel/GetEmployeeData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="255">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SampleGetRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeDataRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/specification/RequestSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1857" column="25" selection-start-line="1857" selection-start-column="25" selection-end-line="1857" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/RestAssured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="709" column="39" selection-start-line="709" selection-start-column="39" selection-end-line="709" selection-end-column="39" />
-          <folding>
-            <element signature="e#28139#28140#0" expanded="true" />
-            <element signature="e#28213#28214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBody.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        <state relative-caret-position="135">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -842,47 +873,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="33" column="50" selection-start-line="33" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/getEmployeesApiModel/GetEmployeeData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SampleGetRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeDataRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeDataRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReqBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -938,7 +1019,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test|BasicRestassured</last-edited>
+          <last-edited>BasicRestassured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

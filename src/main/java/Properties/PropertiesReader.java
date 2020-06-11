@@ -4,7 +4,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class PropertiesReader {
+class PropertiesReader
+{
 	private Properties properties;
 
 	public PropertiesReader() {
@@ -18,14 +19,25 @@ public class PropertiesReader {
 		}
 	}
 
-	public String getHostUrl() {
-		String environment = "Qa";
-		if (environment == "Qa"){
-		return properties.getProperty("QaHost");}
-		else if(environment == "Staging"){
-			return properties.getProperty("StagingHost");}
-		else{
-			return properties.getProperty("ProdHost");}
+	public String getHostUrl()
+	{
+		String environment = properties.getProperty("environment");
+		String hostUrl = "";
+
+		switch (environment)
+		{
+			case "Qa":
+				hostUrl = properties.getProperty("QaHost");
+				break;
+			case "Staging":
+				hostUrl = properties.getProperty("StagingHost");
+				break;
+			case "Production":
+				hostUrl = properties.getProperty("ProdHost");
+				break;
+	    }
+	    return  hostUrl;
+
 	}
-	}
+}
 

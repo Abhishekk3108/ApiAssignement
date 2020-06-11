@@ -33,26 +33,27 @@ public class DummyRestEmployeesApiTest extends EmployeeClient {
 	public  void validatePostEmployeeApi(String empName,String empAge,String empSalary)
 	{
 		EmployeeClient client = new EmployeeClient();
-		PostEmployeeDataRoot data = client.postEmployeeDetails(empName, empAge, empSalary);
-		Assert.assertEquals(data.getStatus(), "success",
-				"Post employee api status response is  " + data.getStatus());
-		Reporter.log("Post user api response is" + data, true);
-		Assert.assertEquals(empName,data.getData().getName(),"Expected and actual employee names are not matching");
-		Assert.assertEquals(empAge,data.getData().getAge(),"Expected and actual employee ages are not matching");
-		Assert.assertEquals(empSalary,data.getData().getSalary(),"Expected and actual employee salaries are not matching");
+		PostEmployeeDataRoot employeeDetails = client.postEmployeeDetails(empName, empAge, empSalary);
+		Assert.assertEquals(employeeDetails.getStatus(), "success",
+				"Post employee api status response is  " + employeeDetails.getStatus());
+		Reporter.log("Post user api response is" + employeeDetails, true);
+		Assert.assertEquals(empName,employeeDetails.getData().getName(),"Expected and actual employee names are not matching");
+		Assert.assertEquals(empAge,employeeDetails.getData().getAge(),"Expected and actual employee ages are not matching");
+		Assert.assertEquals(empSalary,employeeDetails.getData().getSalary(),"Expected and actual employee salaries are not matching");
+		Reporter.log("Post employee api test is pass",true);
 	}
 
 	@Test(dataProvider = "postEmployeeApiData",dataProviderClass = ApiDataSet.class)
 	public  void validateUpdateEmployeeApi(String empName,String empAge,String empSalary)
 	{
 		EmployeeClient client = new EmployeeClient();
-		UpdateEmployeeDataRoot data = client.updateEmployeeDetails(empName, empAge, empSalary,employeeId);
-		Assert.assertEquals(data.getStatus(), "success",
-				"Post employee api status response is  " + data.getStatus());
-		Reporter.log("Post user api response is" + data, true);
-		Assert.assertEquals(empName,data.getData().getEmployee_name(),"Expected and actual employee names are not matching");
-		Assert.assertEquals(empAge,data.getData().getEmployee_age(),"Expected and actual employee ages are not matching");
-		Assert.assertEquals(empSalary,data.getData().getEmployee_salary(),"Expected and actual employee salaries are not matching");
+		UpdateEmployeeDataRoot updateEmployeeDetails = client.updateEmployeeDetails(empName, empAge, empSalary,employeeId);
+		Assert.assertEquals(updateEmployeeDetails.getStatus(), "success",
+				"Post employee api status response is  " + updateEmployeeDetails.getStatus());
+		Reporter.log("Post user api response is" + updateEmployeeDetails, true);
+		Assert.assertEquals(empName,updateEmployeeDetails.getData().getEmployee_name(),"Expected and actual employee names are not matching");
+		Assert.assertEquals(empAge,updateEmployeeDetails.getData().getEmployee_age(),"Expected and actual employee ages are not matching");
+		Assert.assertEquals(empSalary,updateEmployeeDetails.getData().getEmployee_salary(),"Expected and actual employee salaries are not matching");
 	}
 
 
