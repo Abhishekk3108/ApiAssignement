@@ -60,8 +60,9 @@ dependencies {
     // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
     testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.0.0'
 
-    // https://mvnrepository.com/artifact/com.relevantcodes/extentreports
-    compile group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
+    // https://mvnrepository.com/artifact/com.aventstack/extentreports
+    compile group: 'com.aventstack', name: 'extentreports', version: '3.1.5'
+
 
 
 }

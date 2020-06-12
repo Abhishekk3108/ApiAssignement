@@ -1,12 +1,31 @@
 <suite name="All Test Suite" screenshots-for-jira-extension-version="1.0.5">
-    <test verbose="2" preserve-order="true" name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java">
+    <listeners>
+         <listener class-name="extentReport.ExtentReporterNG"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Get All employee data">
         <classes>
             <class name="EmployeesApiTests.DummyRestEmployeesApiTest">
                 <methods>
-                    <include name="validateGetEmployeesApi"/>
-                    <include name="validatePostEmployeeApi"/>
-                    <include name="validateUpdateEmployeeApi"/>
+                    <include name="validateGetEmployeesApi"></include>
                 </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Post employee api">
+        <classes>
+            <class name="EmployeesApiTests.DummyRestEmployeesApiTest">
+                <methods>
+                    <include name="validatePostEmployeeApi"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Update employee api">
+        <classes>
+            <class name="EmployeesApiTests.DummyRestEmployeesApiTest">
+               <methods>
+                   <include name="validateUpdateEmployeeApi"></include>
+               </methods>
             </class>
         </classes>
     </test>
