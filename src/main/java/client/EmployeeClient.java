@@ -9,17 +9,31 @@ import model.getEmployeesApiModel.GetEmployeesDataRoot;
 import model.updateEmployeeApiModel.UpdateEmployeeDataRoot;
 import org.testng.Reporter;
 
+import java.util.concurrent.TimeUnit;
+
 import static Service.EmployeeApiService.*;
 
-public class EmployeeClient {
+public class EmployeeClient
+{
+	private Response response;
+	private Gson gson = new Gson();
+	private long responseTime;
+
+
+	public long getResponseTime() {
+		return responseTime;
+	}
+
+	private void setResponseTime(long responseTime) {
+		this.responseTime = responseTime;
+	}
 
 
 	public GetEmployeesDataRoot getEmployeesDetails() {
-		String url = DummyRestApiUrl.GetEmployees_URL;
-		Response response = getEmployeesRequest(url);
+		response = getEmployeesRequest(DummyRestApiUrl.GetEmployees_URL);
+		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
 		GetEmployeesDataRoot employee;
 		String getEmployeesApiResponse = response.getBody().asString();
-		Gson gson = new Gson();
 		if (response.getStatusCode() == 200) {
 			Reporter.log("Api Status is " + response.getStatusCode(), true);
 			Reporter.log("Post Employee data api response is " +getEmployeesApiResponse,true);
@@ -33,13 +47,12 @@ public class EmployeeClient {
 	}
 
 	public PostEmployeeDataRoot postEmployeeDetails(String emp_name, String emp_age, String emp_salary) {
-		Gson gson = new Gson();
-		String url = DummyRestApiUrl.PostEmployeeData_URL;
 		EmployeeDataReqBuilder reqBody = new EmployeeDataReqBuilder();
 		String request = gson.toJson(reqBody.employeeDetails(emp_name, emp_age, emp_salary).build());
-		Response response = postEmployeeData(url,request);
+		response = postEmployeeData(DummyRestApiUrl.PostEmployeeData_URL,request);
 		PostEmployeeDataRoot employee;
 		String postApiResponse = response.getBody().asString();
+		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
 		if (response.getStatusCode()== 200) {
 			Reporter.log("Api Status is " + response.getStatusCode(), true);
 			Reporter.log("Post Employee data api response is " +postApiResponse,true);
@@ -54,12 +67,12 @@ public class EmployeeClient {
 
 	public UpdateEmployeeDataRoot updateEmployeeDetails(String emp_name, String emp_age, String emp_salary,String emp_Id)
 	{
-		Gson gson = new Gson();
 		String url = DummyRestApiUrl.UpdateEmployeeData_URL + emp_Id;
 		Reporter.log("Update Api URL "+url,true);
 		EmployeeDataReqBuilder reqBody = new EmployeeDataReqBuilder();
 		String request = gson.toJson(reqBody.employeeDetails(emp_name, emp_age, emp_salary).build());
-		Response response = putEmployeeData(url, request);
+		response = putEmployeeData(url, request);
+		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
 		UpdateEmployeeDataRoot employee;
 		String updateApiResponse = response.getBody().asString();
 		if (response.getStatusCode() == 200) {

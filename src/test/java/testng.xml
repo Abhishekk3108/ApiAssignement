@@ -1,0 +1,13 @@
+<suite name="All Test Suite" screenshots-for-jira-extension-version="1.0.5">
+    <test verbose="2" preserve-order="true" name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java">
+        <classes>
+            <class name="EmployeesApiTests.DummyRestEmployeesApiTest">
+                <methods>
+                    <include name="validateGetEmployeesApi"/>
+                    <include name="validatePostEmployeeApi"/>
+                    <include name="validateUpdateEmployeeApi"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,6 +1,7 @@
 package EmployeesApiTests;
 
 import client.EmployeeClient;
+import com.relevantcodes.extentreports.ExtentReports;
 import model.postEmployeesApiModel.PostEmployeeDataRoot;
 import model.getEmployeesApiModel.GetEmployeesDataRoot;
 import model.updateEmployeeApiModel.UpdateEmployeeDataRoot;
@@ -21,6 +22,7 @@ public class DummyRestEmployeesApiTest extends EmployeeClient {
 				"Get employees details api status response is " + employeesResponse.getStatus());
 		employeeId = employeesResponse.getData().get(2).getId();
 		Reporter.log("Get user api response data ", true);
+		Reporter.log("Get All employee response time is : "+ client.getResponseTime());
 		for (int i = 0; i < employeesResponse.getData().size(); i++) {
 			Reporter.log(employeesResponse.getData().get(i).getEmployee_name(), true);
 			Reporter.log(employeesResponse.getData().get(i).getEmployee_age(), true);
