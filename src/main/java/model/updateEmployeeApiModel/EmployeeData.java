@@ -2,8 +2,8 @@ package model.updateEmployeeApiModel;
 
 import lombok.Data;
 
-@Data
-public class UpdateEmployeeData {
+@lombok.Data
+public class EmployeeData {
 	private String profile_image;
 
 	private String employee_name;

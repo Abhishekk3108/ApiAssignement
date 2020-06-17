@@ -3,7 +3,8 @@ package EmployeesApiTests;
 import client.EmployeeClient;
 import model.postEmployeesApiModel.PostEmployeeDataRoot;
 import model.getEmployeesApiModel.GetEmployeesDataRoot;
-import model.updateEmployeeApiModel.UpdateEmployeeDataRoot;
+import model.updateEmployeeApiModel.Data;
+import model.updateEmployeeApiModel.EmployeeData;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
@@ -14,9 +15,9 @@ public class DummyRestEmployeesApiTest extends EmployeeClient {
 	private  String employeeId = "7";
 
 	@Test(priority = 1)
-	public void validateGetEmployeesApi() {
+	public void validateGetAllEmployeesApi() {
 		EmployeeClient client = new EmployeeClient();
-		GetEmployeesDataRoot employeesResponse = client.getEmployeesDetails();
+		GetEmployeesDataRoot employeesResponse = client.getAllEmployeesDetails();
 		Assert.assertEquals(client.getHttpStatusCode(),200,"");
 		Assert.assertEquals(employeesResponse.getStatus(), "success",
 				"Get employees details api status response is " + employeesResponse.getStatus());
@@ -52,7 +53,7 @@ public class DummyRestEmployeesApiTest extends EmployeeClient {
 	public  void validateUpdateEmployeeApi(String empName,String empAge,String empSalary)
 	{
 		EmployeeClient client = new EmployeeClient();
-		UpdateEmployeeDataRoot updateEmployeeDetails = client.updateEmployeeDetails(empName, empAge, empSalary,employeeId);
+		Data updateEmployeeDetails = client.updateEmployeeDetails(empName, empAge, empSalary,employeeId);
 			Assert.assertEquals(updateEmployeeDetails.getStatus(), "success",
 					"Post employee api status response is  " + updateEmployeeDetails.getStatus());
 			Reporter.log("Post user api response is" + updateEmployeeDetails, true);
@@ -62,5 +63,21 @@ public class DummyRestEmployeesApiTest extends EmployeeClient {
 					"Expected and actual employee ages are not matching");
 			Assert.assertEquals(empSalary,updateEmployeeDetails.getData().getEmployee_salary(),
 					"Expected and actual employee salaries are not matching");
+	}
+
+	@Test
+	public  void validateGetEmployeeApi(String empName,String empAge,String empSalary)
+	{
+		EmployeeClient client = new EmployeeClient();
+		Data getEmployeeDetail = client.getEmployeeDetails(employeeId);
+		Assert.assertEquals(getEmployeeDetail.getStatus(), "success",
+				"Post employee api status response is  " + getEmployeeDetail.getStatus());
+		Reporter.log("Post user api response is" + getEmployeeDetail, true);
+		Assert.assertEquals(empName,getEmployeeDetail.getData().getEmployee_name(),
+				"Expected and actual employee names are not matching");
+		Assert.assertEquals(empAge,getEmployeeDetail.getData().getEmployee_age(),
+				"Expected and actual employee ages are not matching");
+		Assert.assertEquals(empSalary,getEmployeeDetail.getData().getEmployee_salary(),
+				"Expected and actual employee salaries are not matching");
 	}
 }

@@ -6,7 +6,8 @@ import io.restassured.response.Response;
 import model.postEmployeesApiModel.EmployeeDataReqBuilder;
 import model.postEmployeesApiModel.PostEmployeeDataRoot;
 import model.getEmployeesApiModel.GetEmployeesDataRoot;
-import model.updateEmployeeApiModel.UpdateEmployeeDataRoot;
+import model.updateEmployeeApiModel.Data;
+import model.updateEmployeeApiModel.EmployeeData;
 import org.testng.Reporter;
 
 import java.util.concurrent.TimeUnit;
@@ -27,7 +28,7 @@ public class EmployeeClient
 	}
 
 
-	public GetEmployeesDataRoot getEmployeesDetails() {
+	public GetEmployeesDataRoot getAllEmployeesDetails() {
 		response = getRequest(DummyRestApiUrl.GetEmployees_URL);
 		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
 		GetEmployeesDataRoot employee;
@@ -51,7 +52,7 @@ public class EmployeeClient
 		return employee;
 	}
 
-	public UpdateEmployeeDataRoot updateEmployeeDetails(String emp_name, String emp_age, String emp_salary,String emp_Id)
+	public Data updateEmployeeDetails(String emp_name, String emp_age, String emp_salary, String emp_Id)
 	{
 		String url = DummyRestApiUrl.UpdateEmployeeData_URL + emp_Id;
 		Reporter.log("Update Api URL "+url,true);
@@ -59,13 +60,28 @@ public class EmployeeClient
 		String request = gson.toJson(reqBody.employeeDetails(emp_name, emp_age, emp_salary).build());
 		response = putRequest(url, request);
 		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
-		UpdateEmployeeDataRoot employee;
+		Data employee;
 		String updateApiResponse = response.getBody().asString();
 			Reporter.log("Api Status is " + response.getStatusCode(), true);
 			Reporter.log("Update Employee data api response is " +updateApiResponse,true);
-			employee = gson.fromJson(updateApiResponse, UpdateEmployeeDataRoot.class);
+			employee = gson.fromJson(updateApiResponse, Data.class);
 		return employee;
 	}
+
+	public Data getEmployeeDetails(String empId)
+	{
+		String url = DummyRestApiUrl.GetEmployee_URL + empId;
+		Reporter.log("Get employee Api URL" + url, true);
+		response  = getRequest(url);
+		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
+		Data employee;
+		String getEmployeeApiResponse = response.getBody().asString();
+		Reporter.log("Api Status is " + response.getStatusCode(), true);
+		Reporter.log("Post Employee data api response is " +getEmployeeApiResponse,true);
+		employee = gson.fromJson(getEmployeeApiResponse, Data.class);
+		return employee;
+	}
+
 
 	public int getHttpStatusCode()
 	{
