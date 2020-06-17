@@ -71,7 +71,7 @@ public class EmployeeClient
 	public Data getEmployeeDetails(String empId)
 	{
 		String url = DummyRestApiUrl.GetEmployee_URL + empId;
-		Reporter.log("Get employee Api URL" + url, true);
+		Reporter.log("Get employee Api URL " + url, true);
 		response  = getRequest(url);
 		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
 		Data employee;

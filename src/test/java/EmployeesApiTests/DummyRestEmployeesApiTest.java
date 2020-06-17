@@ -65,14 +65,17 @@ public class DummyRestEmployeesApiTest extends EmployeeClient {
 					"Expected and actual employee salaries are not matching");
 	}
 
-	@Test
-	public  void validateGetEmployeeApi(String empName,String empAge,String empSalary)
+	@Test(dataProvider =  "getEmployeeData",dataProviderClass = ApiDataSet.class, priority = 4)
+	public  void validateGetEmployeeApi(String empName,String empAge,String empSalary,String empId)
 	{
 		EmployeeClient client = new EmployeeClient();
 		Data getEmployeeDetail = client.getEmployeeDetails(employeeId);
 		Assert.assertEquals(getEmployeeDetail.getStatus(), "success",
-				"Post employee api status response is  " + getEmployeeDetail.getStatus());
-		Reporter.log("Post user api response is" + getEmployeeDetail, true);
+				"Get employee api status response is  " + getEmployeeDetail.getStatus());
+		Reporter.log("Get user api response is" + getEmployeeDetail, true);
+		Reporter.log("Get user api response is" + getEmployeeDetail, true);
+		Assert.assertEquals(empId,getEmployeeDetail.getData().getId(),
+				"Expected and actual employee names are not matching");
 		Assert.assertEquals(empName,getEmployeeDetail.getData().getEmployee_name(),
 				"Expected and actual employee names are not matching");
 		Assert.assertEquals(empAge,getEmployeeDetail.getData().getEmployee_age(),

@@ -12,4 +12,10 @@ public class ApiDataSet {
 				{"John","20","38000"},
 		};
 	}
-}
+
+	@DataProvider(name = "getEmployeeData")
+	public static Object[][] userData() {
+		return  new  Object[][]{
+				{"7","Herrod Chandler","137500","59"}
+	};
+}}

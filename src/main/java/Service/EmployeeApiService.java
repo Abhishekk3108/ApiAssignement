@@ -10,7 +10,8 @@ public class EmployeeApiService {
 
 	public static Response getRequest(String url)
 	{
-		response = given().when().get(url).then().statusCode(200).extract().response();
+		response = given().contentType("application/json").when().log().all().
+				get(url).then().statusCode(200).extract().response();
 		return response;
 	}
 

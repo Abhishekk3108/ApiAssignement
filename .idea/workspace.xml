@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="868d2dca-710d-40d6-b23f-a47b58974cbe" name="Default Changelist" comment="removedIfElseFromClientClass">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/Data.java" afterDir="false" />
+    <list default="true" id="868d2dca-710d-40d6-b23f-a47b58974cbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/EmployeeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeDataRoot.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,11 +72,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="200">
+              <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -95,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="271">
+              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding>
                 <element signature="e#2893#2894#0" expanded="true" />
                 <element signature="e#2914#2915#0" expanded="true" />
@@ -126,17 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/EmployeeDataReq.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -196,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Service/GetEmployeeDataService.java" />
         <option value="$PROJECT_DIR$/src/test/java/EmployeesApiTests/GetEmployeesApiTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiDataSet.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/CreateEmployeeData.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/EmployeesData.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/CreateEmployeeRoot.java" />
@@ -232,13 +229,14 @@
         <option value="$PROJECT_DIR$/src/test/java/extentReport/ExtentReporterNG.java" />
         <option value="$PROJECT_DIR$/src/test/java/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeDataRoot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Properties/DummyRestApiUrl.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/UpdateEmployeeDataRoot.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/EmployeeData.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/updateEmployeeApiModel/Data.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" />
         <option value="$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java" />
       </list>
     </option>
   </component>
@@ -370,7 +368,7 @@
   <component name="PropertiesComponent">
     <property name="android.project.structure.last.selected" value="Project" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592384855059" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592386150066" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -399,26 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DummyRestEmployeesApiTest.validatePostEmployeeApi">
-    <configuration name="BasicRestassured [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="TestNG.DummyRestEmployeesApiTest.validateGetEmployeeApi">
     <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -437,6 +416,42 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="DummyRestEmployeesApiTest.validateGetAllEmployeesApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicRestassured.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EmployeesApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EmployeesApiTests" />
+      <option name="MAIN_CLASS_NAME" value="EmployeesApiTests.DummyRestEmployeesApiTest" />
+      <option name="METHOD_NAME" value="validateGetAllEmployeesApi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DummyRestEmployeesApiTest.validateGetEmployeeApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicRestassured.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EmployeesApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EmployeesApiTests" />
+      <option name="MAIN_CLASS_NAME" value="EmployeesApiTests.DummyRestEmployeesApiTest" />
+      <option name="METHOD_NAME" value="validateGetEmployeeApi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DummyRestEmployeesApiTest.validateGetEmployeesApi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicRestassured.test" />
@@ -492,23 +507,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BasicRestassured.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DummyRestEmployeesApiTest.validateGetEmployeeApi" />
+        <item itemvalue="TestNG.DummyRestEmployeesApiTest.validateUpdateEmployeeApi" />
+        <item itemvalue="TestNG.DummyRestEmployeesApiTest.validateGetAllEmployeesApi" />
         <item itemvalue="TestNG.DummyRestEmployeesApiTest.validatePostEmployeeApi" />
         <item itemvalue="TestNG.DummyRestEmployeesApiTest.validateGetEmployeesApi" />
-        <item itemvalue="TestNG./Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" />
-        <item itemvalue="TestNG.DummyRestEmployeesApiTest.validateUpdateEmployeeApi" />
-        <item itemvalue="Gradle.BasicRestassured [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -544,31 +549,24 @@
       <option name="project" value="LOCAL" />
       <updated>1592383091928</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="AddedTestForGetEmployeeApi">
+      <created>1592384807172</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592384807172</updated>
+    </task>
+    <task id="LOCAL-00005" summary="AddedTestForGetEmployeeApi">
+      <created>1592384858983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592384858983</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_abhishek_Desktop_Hemanth_Data]_work_BasicRestassured_src_test_java_testng_xml - 2020.06.12 at 16h 39m 13s.xml">
-      <configuration name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abhishek_Desktop_Hemanth_Data]_work_BasicRestassured_src_test_java_testng_xml - 2020.06.12 at 16h 42m 15s.xml">
-      <configuration name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abhishek_Desktop_Hemanth_Data]_work_BasicRestassured_src_test_java_testng_xml - 2020.06.12 at 16h 43m 06s.xml">
-      <configuration name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abhishek_Desktop_Hemanth_Data]_work_BasicRestassured_src_test_java_testng_xml - 2020.06.12 at 16h 54m 48s.xml">
-      <configuration name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abhishek_Desktop_Hemanth_Data]_work_BasicRestassured_src_test_java_testng_xml - 2020.06.12 at 16h 55m 14s.xml">
-      <configuration name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abhishek_Desktop_Hemanth_Data]_work_BasicRestassured_src_test_java_testng_xml - 2020.06.12 at 16h 55m 57s.xml">
-      <configuration name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abhishek_Desktop_Hemanth_Data]_work_BasicRestassured_src_test_java_testng_xml - 2020.06.12 at 17h 01m 58s.xml">
-      <configuration name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_abhishek_Desktop_Hemanth_Data]_work_BasicRestassured_src_test_java_testng_xml - 2020.06.12 at 17h 07m 49s.xml">
       <configuration name="/Users/abhishek/Desktop/Hemanth_Data]/work/BasicRestassured/src/test/java/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -577,6 +575,27 @@
     </history-entry>
     <history-entry file="DummyRestEmployeesApiTest_validatePostEmployeeApi - 2020.06.16 at 16h 38m 41s.xml">
       <configuration name="DummyRestEmployeesApiTest.validatePostEmployeeApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validateGetEmployeeApi - 2020.06.17 at 14h 42m 11s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validateGetEmployeeApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validateGetAllEmployeesApi - 2020.06.17 at 14h 42m 41s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validateGetAllEmployeesApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validateGetEmployeeApi - 2020.06.17 at 14h 42m 55s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validateGetEmployeeApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validateGetEmployeeApi - 2020.06.17 at 14h 52m 30s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validateGetEmployeeApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validateGetEmployeeApi - 2020.06.17 at 14h 52m 49s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validateGetEmployeeApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validateGetEmployeeApi - 2020.06.17 at 14h 54m 25s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validateGetEmployeeApi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DummyRestEmployeesApiTest_validateUpdateEmployeeApi - 2020.06.17 at 14h 56m 14s.xml">
+      <configuration name="DummyRestEmployeesApiTest.validateUpdateEmployeeApi" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -601,7 +620,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5009862" side_tool="true" weight="0.21530758" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27492878" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27492878" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33760685" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -661,7 +680,8 @@
     <MESSAGE value="AddedLombokDependency" />
     <MESSAGE value="AddedExtentReport" />
     <MESSAGE value="removedIfElseFromClientClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="removedIfElseFromClientClass" />
+    <MESSAGE value="AddedTestForGetEmployeeApi" />
+    <option name="LAST_COMMIT_MESSAGE" value="AddedTestForGetEmployeeApi" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -886,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Properties/PropertiesReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -941,13 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/postEmployeesApiModel/PostEmployeeData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -983,10 +989,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProviders/ApiDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/EmployeeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="271">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding>
             <element signature="e#2893#2894#0" expanded="true" />
             <element signature="e#2914#2915#0" expanded="true" />
@@ -994,10 +1007,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/EmployeeApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EmployeesApiTests/DummyRestEmployeesApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        <state relative-caret-position="200">
+          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
