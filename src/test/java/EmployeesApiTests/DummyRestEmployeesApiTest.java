@@ -11,12 +11,13 @@ import dataProviders.ApiDataSet;
 
 public class DummyRestEmployeesApiTest extends EmployeeClient {
 
-	String employeeId = "7";
+	private  String employeeId = "7";
 
 	@Test(priority = 1)
 	public void validateGetEmployeesApi() {
 		EmployeeClient client = new EmployeeClient();
 		GetEmployeesDataRoot employeesResponse = client.getEmployeesDetails();
+		Assert.assertEquals(client.getHttpStatusCode(),200,"");
 		Assert.assertEquals(employeesResponse.getStatus(), "success",
 				"Get employees details api status response is " + employeesResponse.getStatus());
 		employeeId = employeesResponse.getData().get(2).getId();

@@ -20,9 +20,7 @@ public class EmployeeClient
 	private long responseTime;
 
 
-	public long getResponseTime() {
-		return responseTime;
-	}
+	public long getResponseTime() { return responseTime; }
 
 	private void setResponseTime(long responseTime) {
 		this.responseTime = responseTime;
@@ -30,38 +28,26 @@ public class EmployeeClient
 
 
 	public GetEmployeesDataRoot getEmployeesDetails() {
-		response = getEmployeesRequest(DummyRestApiUrl.GetEmployees_URL);
+		response = getRequest(DummyRestApiUrl.GetEmployees_URL);
 		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
 		GetEmployeesDataRoot employee;
 		String getEmployeesApiResponse = response.getBody().asString();
-		if (response.getStatusCode() == 200) {
 			Reporter.log("Api Status is " + response.getStatusCode(), true);
 			Reporter.log("Post Employee data api response is " +getEmployeesApiResponse,true);
 			employee = gson.fromJson(getEmployeesApiResponse, GetEmployeesDataRoot.class);
-		} else {
-			Reporter.log("Get Employees details api is failed " + response.getStatusCode(), true);
-			Reporter.log("Failed Get Employees api response is " + getEmployeesApiResponse, true);
-			employee = gson.fromJson(getEmployeesApiResponse, GetEmployeesDataRoot.class);
-		}
 		return employee;
 	}
 
-	public PostEmployeeDataRoot postEmployeeDetails(String emp_name, String emp_age, String emp_salary) {
+	public PostEmployeeDataRoot  postEmployeeDetails(String emp_name, String emp_age, String emp_salary) {
 		EmployeeDataReqBuilder reqBody = new EmployeeDataReqBuilder();
 		String request = gson.toJson(reqBody.employeeDetails(emp_name, emp_age, emp_salary).build());
-		response = postEmployeeData(DummyRestApiUrl.PostEmployeeData_URL,request);
+		response = postRequest(DummyRestApiUrl.PostEmployeeData_URL,request);
 		PostEmployeeDataRoot employee;
 		String postApiResponse = response.getBody().asString();
 		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
-		if (response.getStatusCode()== 200) {
 			Reporter.log("Api Status is " + response.getStatusCode(), true);
 			Reporter.log("Post Employee data api response is " +postApiResponse,true);
 			employee = gson.fromJson(postApiResponse, PostEmployeeDataRoot.class);
-		} else {
-			Reporter.log("Post Employees details api is failed " + response.statusCode(), true);
-			Reporter.log("Failed Post Employee date api response is " + postApiResponse, true);
-			employee = gson.fromJson(postApiResponse, PostEmployeeDataRoot.class);
-		}
 		return employee;
 	}
 
@@ -71,19 +57,18 @@ public class EmployeeClient
 		Reporter.log("Update Api URL "+url,true);
 		EmployeeDataReqBuilder reqBody = new EmployeeDataReqBuilder();
 		String request = gson.toJson(reqBody.employeeDetails(emp_name, emp_age, emp_salary).build());
-		response = putEmployeeData(url, request);
+		response = putRequest(url, request);
 		setResponseTime(response.getTimeIn(TimeUnit.MILLISECONDS));
 		UpdateEmployeeDataRoot employee;
 		String updateApiResponse = response.getBody().asString();
-		if (response.getStatusCode() == 200) {
 			Reporter.log("Api Status is " + response.getStatusCode(), true);
 			Reporter.log("Update Employee data api response is " +updateApiResponse,true);
 			employee = gson.fromJson(updateApiResponse, UpdateEmployeeDataRoot.class);
-		} else {
-			Reporter.log("Update Employees details api is failed " + response.getStatusCode(), true);
-			Reporter.log("Failed Post Employee date api response is " + updateApiResponse, true);
-			employee = gson.fromJson(updateApiResponse, UpdateEmployeeDataRoot.class);
-		}
 		return employee;
+	}
+
+	public int getHttpStatusCode()
+	{
+		return response.getStatusCode();
 	}
 }
